@@ -1,4 +1,4 @@
-{% set version = '3.0.0.1' %}
+{% set version = "3.1.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -11,12 +11,12 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ggtern_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ggtern/ggtern_{{ version }}.tar.gz
-  sha256: 975a59a21190209bfa1bfca050b714ede5afda76c3b192794c8eb4521ed76589
+  sha256: 128558b43930ce1b88a55639e4dcf969dae9abf7ec44fb973264c1ae872e1aba
 
 build:
   noarch: generic
   merge_build_host: True  # [win]
-  number: 1000
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
