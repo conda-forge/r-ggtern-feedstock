@@ -1,7 +1,3 @@
-<!--
-# -*- mode: jinja -*-
--->
-
 About r-ggtern
 ==============
 
@@ -18,8 +14,15 @@ Summary: Extends the functionality of 'ggplot2', providing the capability to plo
 Current build status
 ====================
 
-All platforms:
-[![noarch](https://img.shields.io/circleci/project/github/conda-forge/r-ggtern-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/r-ggtern-feedstock)
+
+<table><tr><td>All platforms:</td>
+    <td>
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3402&branchName=master">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-ggtern-feedstock?branchName=master">
+      </a>
+    </td>
+  </tr>
+</table>
 
 Current release info
 ====================
@@ -116,6 +119,7 @@ Feedstock Maintainers
 * [@apcamargo](https://github.com/apcamargo/)
 * [@bgruening](https://github.com/bgruening/)
 * [@cbrueffer](https://github.com/cbrueffer/)
+* [@conda-forge/r](https://github.com/conda-forge/r/)
 * [@daler](https://github.com/daler/)
 * [@dbast](https://github.com/dbast/)
 * [@jdblischak](https://github.com/jdblischak/)
