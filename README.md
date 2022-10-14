@@ -3,7 +3,7 @@ About r-ggtern
 
 Home: http://www.ggtern.com
 
-Package license: GPL-2
+Package license: GPL-2.0-only
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ggtern-feedstock/blob/main/LICENSE.txt)
 
