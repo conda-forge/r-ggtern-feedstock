@@ -25,7 +25,7 @@ requirements:
     - {{ posix }}zip               # [win]
     - cross-r-base {{ r_base }}    # [build_platform != target_platform]
   host:
-    - r-base
+    - r-base >=4.2.2
     - r-mass
     - r-compositions >=2.0_2
     - r-ggplot2 >=3.3.5
@@ -38,7 +38,7 @@ requirements:
     - r-proto >=1.0
     - r-scales >=0.3.0
   run:
-    - r-base
+    - r-base >=4.2.2
     - r-mass
     - r-compositions >=2.0_2
     - r-ggplot2 >=3.3.5
