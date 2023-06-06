@@ -1,11 +1,11 @@
-About r-ggtern
-==============
+About r-ggtern-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ggtern-feedstock/blob/main/LICENSE.txt)
 
 Home: http://www.ggtern.com
 
 Package license: GPL-2.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ggtern-feedstock/blob/main/LICENSE.txt)
 
 Summary: Extends the functionality of 'ggplot2', providing the capability to plot ternary diagrams for (subset of) the 'ggplot2' geometries. Additionally, 'ggtern' has implemented several NEW geometries which are unavailable to the standard 'ggplot2' release. For further examples and documentation, please proceed to the 'ggtern' website.
 
