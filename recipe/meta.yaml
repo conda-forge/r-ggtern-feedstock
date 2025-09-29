@@ -26,7 +26,7 @@ requirements:
     - r-base
     - r-mass
     - r-compositions >=2.0_2
-    - r-ggplot2 >=3.4.0
+    - r-ggplot2 >=3.4.0,<4
     - r-gridextra >=2.3
     - r-gtable >=0.1.2
     - r-hexbin >=1.28.2
@@ -39,7 +39,7 @@ requirements:
     - r-base
     - r-mass
     - r-compositions >=2.0_2
-    - r-ggplot2 >=3.4.0
+    - r-ggplot2 >=3.4.0,<4
     - r-gridextra >=2.3
     - r-gtable >=0.1.2
     - r-hexbin >=1.28.2
