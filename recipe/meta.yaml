@@ -1,4 +1,4 @@
-{% set version = "3.5.0" %}
+{% set version = "4.0.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ggtern_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ggtern/ggtern_{{ version }}.tar.gz
-  sha256: 8a2b649b1004f894ebe08f6b9f50aa71bb53973022d4232e69f9ccdf76f2b47a
+  sha256: 312e130641dbcf3d4b7b0582356de454cfbe21692a766b9479039ef439deb9e7
 
 build:
-  number: 2
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
